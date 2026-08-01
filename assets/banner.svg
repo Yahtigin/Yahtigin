@@ -1,165 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%" shape-rendering="crispEdges">
   <defs>
-    <!-- Background & Glowing Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0e14" />
-      <stop offset="50%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#09111e" />
+    <!-- Muted Realistic Palette: Iron, Steel, Bronze, Dark Steppe -->
+    <linearGradient id="steppeNight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0e12" />
+      <stop offset="50%" stop-color="#141923" />
+      <stop offset="100%" stop-color="#0a0c10" />
     </linearGradient>
 
-    <linearGradient id="turquoiseGold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F2FE">
-        <animate attributeName="stop-color" values="#00F2FE; #4FACFE; #FFD700; #00F2FE" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#FFD700">
-        <animate attributeName="stop-color" values="#FFD700; #00F2FE; #4FACFE; #FFD700" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#00C49F">
-        <animate attributeName="stop-color" values="#00C49F; #FFD700; #00F2FE; #00C49F" dur="6s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-
-    <linearGradient id="maskGlow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#FFD700" stop-opacity="0.7" />
-    </linearGradient>
-
-    <!-- Shimmer Effect -->
-    <linearGradient id="shimmer" x1="-100%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
-      <stop offset="50%" stop-color="rgba(0,242,254,0.25)" />
-      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
-      <animateTransform attributeName="transform" type="translate" from="-850 0" to="850 0" dur="4s" repeatCount="indefinite" />
-    </linearGradient>
-
-    <!-- Glow Filter -->
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <!-- Pixel Dither Pattern -->
+    <pattern id="pixelGrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#141923" />
+      <rect width="4" height="4" fill="#1a202c" />
+      <rect x="4" y="4" width="4" height="4" fill="#121620" />
+    </pattern>
   </defs>
 
-  <style>
-    .title { font-family: 'Fira Code', 'Courier New', monospace; font-weight: 800; font-size: 38px; fill: url(#turquoiseGold); }
-    .subtitle { font-family: 'Inter', -apple-system, sans-serif; font-weight: 500; font-size: 16px; fill: #94A3B8; letter-spacing: 3px; }
-    .badge-text { font-family: 'Fira Code', monospace; font-size: 12px; fill: #00F2FE; letter-spacing: 1.5px; }
-    .tamga { stroke: #FFD700; stroke-width: 1.5; fill: none; opacity: 0.4; }
-    .dna-strand { stroke: #00F2FE; stroke-width: 1.5; fill: none; opacity: 0.3; }
+  <!-- Background -->
+  <rect width="800" height="240" rx="8" fill="url(#steppeNight)" />
+  <rect width="800" height="240" rx="8" fill="url(#pixelGrid)" opacity="0.4" />
+
+  <!-- Muted Pixel Border -->
+  <rect x="4" y="4" width="792" height="232" rx="6" fill="none" stroke="#2d3748" stroke-width="4" stroke-dasharray="8 4" />
+  <rect x="12" y="12" width="776" height="216" rx="4" fill="none" stroke="#1a202c" stroke-width="2" />
+
+  <!-- Steppe Horizon & Distant Pixel Mountains (Left & Right) -->
+  <g fill="#1a2332" opacity="0.7">
+    <!-- Left Mountains -->
+    <rect x="40" y="160" width="16" height="40" />
+    <rect x="56" y="144" width="24" height="56" />
+    <rect x="80" y="128" width="32" height="72" />
+    <rect x="112" y="152" width="24" height="48" />
+    <rect x="136" y="168" width="40" height="32" />
+
+    <!-- Right Mountains -->
+    <rect x="620" y="168" width="32" height="32" />
+    <rect x="652" y="144" width="24" height="56" />
+    <rect x="676" y="120" width="32" height="80" />
+    <rect x="708" y="152" width="24" height="48" />
+    <rect x="732" y="160" width="32" height="40" />
+  </g>
+
+  <!-- Pixelated Turkic Star Tamga Motifs (Side Accents) -->
+  <g fill="#718096" opacity="0.4">
+    <!-- Left Tamga Star -->
+    <rect x="100" y="50" width="8" height="24" />
+    <rect x="92" y="58" width="24" height="8" />
+    <rect x="96" y="54" width="16" height="16" />
+
+    <!-- Right Tamga Star -->
+    <rect x="690" y="50" width="8" height="24" />
+    <rect x="682" y="58" width="24" height="8" />
+    <rect x="686" y="54" width="16" height="16" />
+  </g>
+
+  <!-- CENTER PIXEL ART KIPCHAK IRON MASK & HELMET -->
+  <!-- Main Position: Center (400, 120) -->
+  <g transform="translate(400, 120)">
+    <!-- Helmet Point Top -->
+    <rect x="-4" y="-76" width="8" height="16" fill="#a0aec0" />
+    <rect x="-8" y="-60" width="16" height="12" fill="#718096" />
     
-    @keyframes pulse {
-      0% { opacity: 0.6; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.02); }
-      100% { opacity: 0.6; transform: scale(1); }
-    }
-    .pulsing-mask { transform-origin: 140px 160px; animation: pulse 4s ease-in-out infinite; }
-  </style>
+    <!-- Helmet Dome -->
+    <rect x="-24" y="-48" width="48" height="12" fill="#4a5568" />
+    <rect x="-36" y="-36" width="72" height="12" fill="#2d3748" />
+    <rect x="-44" y="-24" width="88" height="16" fill="#4a5568" />
 
-  <!-- Card Frame -->
-  <rect x="5" y="5" width="840" height="310" rx="16" fill="url(#bgGrad)" stroke="url(#turquoiseGold)" stroke-width="2" />
-  
-  <!-- Shimmer Overlay -->
-  <rect x="5" y="5" width="840" height="310" rx="16" fill="url(#shimmer)" />
+    <!-- Highlight on Helmet Left Side -->
+    <rect x="-20" y="-44" width="8" height="8" fill="#cbd5e0" />
+    <rect x="-32" y="-32" width="12" height="8" fill="#a0aec0" />
+    <rect x="-40" y="-20" width="16" height="8" fill="#718096" />
 
-  <!-- Background Steppe / Turkic Geometric Motif (Tamga Patterns & DNA Sine Waves) -->
-  <g class="tamga">
-    <!-- Star of the Steppe (8-pointed Turkic star) -->
-    <path d="M 720 70 L 730 95 L 755 105 L 730 115 L 720 140 L 710 115 L 685 105 L 710 95 Z" />
-    <path d="M 720 77 L 727 95 L 745 105 L 727 115 L 720 133 L 713 115 L 695 105 L 713 95 Z" />
-    
-    <circle cx="720" cy="105" r="45" stroke="#00F2FE" stroke-opacity="0.2" />
-    <circle cx="720" cy="105" r="65" stroke="#FFD700" stroke-opacity="0.15" stroke-dasharray="4,4" />
+    <!-- Visor Eyebrow Ridge (Iron Rim) -->
+    <rect x="-48" y="-8" width="96" height="8" fill="#718096" />
+    <rect x="-44" y="-8" width="88" height="4" fill="#a0aec0" />
+
+    <!-- Visor Face Plate Base (Anthropomorphic Visor) -->
+    <rect x="-40" y="0" width="80" height="64" fill="#2d3748" />
+    <rect x="-36" y="64" width="72" height="16" fill="#1a202c" />
+
+    <!-- Left Eye Slot (Almond Shaped Pixel Cutout) -->
+    <rect x="-28" y="8" width="16" height="8" fill="#0c0e12" />
+    <rect x="-24" y="6" width="8" height="2" fill="#718096" />
+
+    <!-- Right Eye Slot (Almond Shaped Pixel Cutout) -->
+    <rect x="12" y="8" width="16" height="8" fill="#0c0e12" />
+    <rect x="16" y="6" width="8" height="2" fill="#718096" />
+
+    <!-- Prominent Nose Ridge (Wrought Iron Nose) -->
+    <rect x="-4" y="0" width="8" height="32" fill="#718096" />
+    <rect x="-6" y="24" width="12" height="8" fill="#a0aec0" />
+
+    <!-- Engraved Kipchak Moustache (Iron Facial Feature) -->
+    <rect x="-32" y="36" width="64" height="6" fill="#1a202c" />
+    <rect x="-24" y="34" width="48" height="4" fill="#4a5568" />
+    <rect x="-16" y="32" width="32" height="4" fill="#718096" />
+    <rect x="-36" y="42" width="16" height="6" fill="#2d3748" />
+    <rect x="20" y="42" width="16" height="6" fill="#2d3748" />
+
+    <!-- Mouth Slot -->
+    <rect x="-12" y="48" width="24" height="4" fill="#0c0e12" />
+
+    <!-- Chin & Neck Armor -->
+    <rect x="-24" y="76" width="48" height="8" fill="#2d3748" />
+    <rect x="-16" y="84" width="32" height="6" fill="#1a202c" />
+
+    <!-- Rivets -->
+    <rect x="-36" y="-4" width="4" height="4" fill="#e2e8f0" />
+    <rect x="32" y="-4" width="4" height="4" fill="#e2e8f0" />
+    <rect x="-32" y="20" width="4" height="4" fill="#cbd5e0" />
+    <rect x="28" y="20" width="4" height="4" fill="#cbd5e0" />
   </g>
-
-  <!-- Computational DNA Wave Ornament -->
-  <g class="dna-strand">
-    <path d="M 380 250 Q 420 220, 460 250 T 540 250 T 620 250 T 700 250 T 780 250" />
-    <path d="M 380 250 Q 420 280, 460 250 T 540 250 T 620 250 T 700 250 T 780 250" />
-    <line x1="420" y1="235" x2="420" y2="265" stroke="#FFD700" stroke-opacity="0.3" />
-    <line x1="500" y1="235" x2="500" y2="265" stroke="#00F2FE" stroke-opacity="0.3" />
-    <line x1="580" y1="235" x2="580" y2="265" stroke="#FFD700" stroke-opacity="0.3" />
-    <line x1="660" y1="235" x2="660" y2="265" stroke="#00F2FE" stroke-opacity="0.3" />
-    <line x1="740" y1="235" x2="740" y2="265" stroke="#FFD700" stroke-opacity="0.3" />
-  </g>
-
-  <!-- KIPCHAK IRON MASK & HELMET VECTOR ART -->
-  <g class="pulsing-mask">
-    <!-- Outer Glow Silhouette -->
-    <path d="M 140 55 
-             C 95 55, 70 90, 68 135 
-             L 68 175 
-             C 68 220, 95 255, 140 265 
-             C 185 255, 212 220, 212 175 
-             L 212 135 
-             C 210 90, 185 55, 140 55 Z" 
-          fill="none" stroke="url(#turquoiseGold)" stroke-width="3" filter="url(#neonGlow)" />
-
-    <!-- Helmet Crown & Point -->
-    <path d="M 140 40 L 140 60 M 130 45 L 140 35 L 150 45" stroke="#FFD700" stroke-width="2.5" fill="none" filter="url(#softGlow)" />
-    
-    <!-- Helmet Brow Line & Plate -->
-    <path d="M 75 115 C 105 105, 175 105, 205 115" fill="none" stroke="#00F2FE" stroke-width="2" />
-    
-    <!-- Anthropomorphic Visor (Eye Openings & Nose Ridge) -->
-    <!-- Left Eye Almond Slot -->
-    <path d="M 92 138 C 105 130, 120 135, 126 144 C 120 148, 105 148, 92 138 Z" fill="#00F2FE" opacity="0.9" filter="url(#softGlow)" />
-    <!-- Right Eye Almond Slot -->
-    <path d="M 154 144 C 160 135, 175 130, 188 138 C 175 148, 160 148, 154 144 Z" fill="#00F2FE" opacity="0.9" filter="url(#softGlow)" />
-
-    <!-- Prominent Kipchak Nose Ridge -->
-    <path d="M 140 120 L 140 185 L 128 195 L 140 195 L 152 195 L 140 185" fill="none" stroke="#FFD700" stroke-width="2" stroke-linejoin="round" />
-
-    <!-- Iconic Kipchak Mustache Line (Engraved Iron Moustache) -->
-    <path d="M 140 198 
-             C 125 198, 102 205, 88 218 
-             C 102 215, 125 210, 140 205 
-             C 155 210, 178 215, 192 218 
-             C 178 205, 155 198, 140 198 Z" 
-          fill="url(#turquoiseGold)" filter="url(#softGlow)" />
-
-    <!-- Lips Slot -->
-    <line x1="125" y1="225" x2="155" y2="225" stroke="#FFD700" stroke-width="2" stroke-linecap="round" />
-
-    <!-- Cheek & Ear Rivet Accents -->
-    <circle cx="82" cy="165" r="3" fill="#00F2FE" />
-    <circle cx="198" cy="165" r="3" fill="#00F2FE" />
-    <circle cx="140" cy="85" r="3.5" fill="#FFD700" />
-  </g>
-
-  <!-- Typography & Text Content -->
-  <!-- Tag Badge -->
-  <g transform="translate(260, 60)">
-    <rect x="0" y="0" width="220" height="26" rx="13" fill="#0f2942" stroke="#00F2FE" stroke-width="1" />
-    <text x="110" y="17" text-anchor="middle" class="badge-text">🏹 KIPCHAK SPIRIT</text>
-  </g>
-
-  <g transform="translate(500, 60)">
-    <rect x="0" y="0" width="250" height="26" rx="13" fill="#2a1f0d" stroke="#FFD700" stroke-width="1" />
-    <text x="125" y="17" text-anchor="middle" class="badge-text" fill="#FFD700">🧬 MOLECULAR BIO TECH</text>
-  </g>
-
-  <!-- Title & Subtitle -->
-  <text x="260" y="130" class="title" filter="url(#softGlow)">VIBECODER</text>
-  <text x="260" y="165" class="subtitle">COMPUTATIONAL BIOLOGY &amp; ALGORITHMS</text>
-  
-  <text x="260" y="205" font-family="'Fira Code', monospace" font-size="14" fill="#E2E8F0">
-    &gt; Forging code at the boundary of Life Sciences &amp; High-Performance Computing.
-  </text>
-  <text x="260" y="230" font-family="'Fira Code', monospace" font-size="13" fill="#64748B">
-    // Building custom bio-computation tools, sequence models &amp; steppe vibes ☕
-  </text>
-
-  <!-- Bottom Accent Bar -->
-  <rect x="260" y="260" width="530" height="3" rx="1.5" fill="url(#turquoiseGold)" />
 </svg>

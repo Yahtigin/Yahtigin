@@ -1,32 +1,32 @@
-<!-- KIPCHAK MASK & VIBRANT TURKIC THEME GITHUB PROFILE -->
+<!-- REALISTIC KIPCHAK PIXEL ART GITHUB PROFILE -->
 <div align="center">
-  <img src="./assets/banner.svg" alt="Vibecoder - Kipchak Mask Banner" width="100%" />
+  <img src="./assets/banner_pixelart.jpg" alt="Kipchak Mask Pixel Art Banner" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F2FE&center=true&vcenter=true&width=650&lines=Vibecoder+%F0%9F%8F%B9+%7C+Just+doing+what+I+want;Molecular+Biology+Computations+%F0%9F%A7%AC;Forging+Bio-Algorithms+%26+Steppe+Vibes;Building+Computational+Tools+for+Life+Sciences" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A0AEC0&center=true&vcenter=true&width=650&lines=Vibecoder+%7C+Just+doing+what+I+want;Molecular+Biology+Computations;Bio-Algorithms+%26+Steppe+Heritage;Building+Computational+Tools+for+Life+Sciences" alt="Typing SVG" />
 </div>
 
 ---
 
 ### 🏹 About Me
 
-> *"Like the nomads of the Kipchak steppe who navigated vast horizons, I navigate the boundless space of code, biology, and algorithms."*
+> *"Like the ancient Kipchak warriors of the Eurasian steppe, I navigate complex spaces with focus, endurance, and quiet craftsmanship."*
 
-👋 **Greetings! I am a Vibecoder** crafting software driven by curiosity and intuition. I code what inspires me—unbound by rigid formulas, following high vibes and deep technical challenges.
+👋 **Greetings! I am a Vibecoder** building software driven by curiosity and raw passion. I code whatever catches my interest—unbound by rigid frameworks, preferring clean logic and deep technical challenges.
 
-- 🧬 **Primary Interest:** Molecular Biology Computations, Structural Bioinformatics & Sequence Algorithms.
-- 🏹 **Cultural Vibe:** Inspired by ancient Turkic heritage, Kipchak endurance, and steppe aesthetics.
-- 💻 **Mindset:** *"Vibecode first, optimize with elegance, explore relentlessly."*
-- ⚡ **Fun Fact:** DNA is the ultimate 4-base bio-code (`A`, `T`, `C`, `G`) — programming it is second nature!
+- 🧬 **Primary Focus:** Molecular Biology Computations, Structural Bioinformatics & Sequence Algorithms.
+- 🏹 **Theme & Vibe:** Grounded Turkic heritage, Kipchak iron mask pixel aesthetics, and steppe solitude.
+- 💻 **Mindset:** *"Vibecode freely, craft cleanly, explore relentlessly."*
+- ⚡ **Bio-fact:** DNA is nature's ultimate 4-letter pixel code (`A`, `T`, `C`, `G`).
 
 ---
 
 ### 🧬 Molecular Biology & Computational Focus
 
-Though my public repositories are just beginning to take shape, my computational lab is actively focusing on:
+My computational lab focus areas for upcoming projects and experiments:
 
 <div align="center">
 
@@ -34,7 +34,7 @@ Though my public repositories are just beginning to take shape, my computational
 | :--- | :--- | :--- |
 | 🧪 **Structural Bio & Folding** | Protein structure analysis, docking simulations & 3D coordinate parsing | `Python` `PyMOL` `Biopython` |
 | 🧬 **Genomic Data Pipelines** | High-performance DNA/RNA sequence alignment & variant detection | `Rust` `C++` `Nextflow` |
-| 🤖 **AI for Life Sciences** | Deep learning models for biological sequence prediction | `PyTorch` `Scikit-learn` |
+| 🤖 **AI for Life Sciences** | Machine learning models for biological sequence prediction | `PyTorch` `Scikit-learn` |
 | ⚡ **Bio-Algorithms** | Graph theory applications in metabolic pathways & phylogenetic trees | `Python` `NetworkX` |
 
 </div>
@@ -44,7 +44,7 @@ Though my public repositories are just beginning to take shape, my computational
 ### 🛠️ Tech Stack & Bio-Arsenal
 
 <details open>
-<summary><b>💻 Languages & Core Engines</b></summary>
+<summary><b>💻 Languages & Core Systems</b></summary>
 <br/>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -67,7 +67,7 @@ Though my public repositories are just beginning to take shape, my computational
 </details>
 
 <details open>
-<summary><b>🛠️ Tools, Environment & DevOps</b></summary>
+<summary><b>🛠️ Tools & Environment</b></summary>
 <br/>
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -82,14 +82,14 @@ Though my public repositories are just beginning to take shape, my computational
 ### 📊 GitHub Activity & Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&title_color=00F2FE&icon_color=FFD700&text_color=94A3B8&bg_color=0B0E14" alt="GitHub Stats" height="175" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&title_color=00F2FE&text_color=94A3B8&bg_color=0B0E14" alt="Top Languages" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&title_color=E2E8F0&icon_color=A0AEC0&text_color=94A3B8&bg_color=0D1117" alt="GitHub Stats" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&title_color=E2E8F0&text_color=94A3B8&bg_color=0D1117" alt="Top Languages" height="175" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0B0E14&ring=00F2FE&fire=FFD700&currStreakNum=00F2FE" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0D1117&ring=A0AEC0&fire=CBD5E0&currStreakNum=E2E8F0" alt="GitHub Streak" />
 </div>
 
 ---
@@ -99,21 +99,6 @@ Though my public repositories are just beginning to take shape, my computational
 <div align="center">
   <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="100%" />
 </div>
-
----
-
-### 🔮 Future Bio-Lab Roadmap
-
-```gantt
-dateFormat  YYYY-MM-DD
-title Roadmap: Molecular Biology Computations
-section Sequence Tools
-Fast DNA Motif Search Engine    :active, 2026-08-01, 30d
-section Structural Modeling
-PyMOL Automation Scripts        : 2026-09-01, 45d
-section Deep Learning
-Protein Binding Predictor      : 2026-10-15, 60d
-```
 
 ---
 
@@ -134,5 +119,5 @@ Protein Binding Predictor      : 2026-10-15, 60d
 <br/>
 
 <div align="center">
-  <sub>🏹 <i>Forged with Kipchak Spirit &amp; Molecular Code</i> 🧬</sub>
+  <sub>🏹 <i>Crafted with Kipchak endurance &amp; Molecular Code</i> 🧬</sub>
 </div>
