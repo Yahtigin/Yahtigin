@@ -15,7 +15,7 @@
 
 > *"Like the ancient Kipchak warriors of the Eurasian steppe, I navigate complex spaces with focus, endurance, and quiet craftsmanship."*
 
-👋 **Greetings! I am a Vibecoder** building software driven by curiosity and raw passion. I code whatever catches my interest—unbound by rigid frameworks, preferring clean logic and deep technical challenges.
+👋 **Greetings! I am Yahtigin** — a Vibecoder building software driven by curiosity and raw passion. I code whatever catches my interest—unbound by rigid frameworks, preferring clean logic and deep technical challenges.
 
 - 🧬 **Primary Focus:** Molecular Biology Computations, Structural Bioinformatics & Sequence Algorithms.
 - 🏹 **Theme & Vibe:** Grounded Turkic heritage, Kipchak iron mask pixel aesthetics, and steppe solitude.
@@ -82,14 +82,14 @@ My computational lab focus areas for upcoming projects and experiments:
 ### 📊 GitHub Activity & Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&title_color=E2E8F0&icon_color=A0AEC0&text_color=94A3B8&bg_color=0D1117" alt="GitHub Stats" height="175" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&title_color=E2E8F0&text_color=94A3B8&bg_color=0D1117" alt="Top Languages" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Yahtigin&show_icons=true&theme=dark&hide_border=true&title_color=E2E8F0&icon_color=A0AEC0&text_color=94A3B8&bg_color=0D1117" alt="GitHub Stats" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yahtigin&layout=compact&theme=dark&hide_border=true&title_color=E2E8F0&text_color=94A3B8&bg_color=0D1117" alt="Top Languages" height="175" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0D1117&ring=A0AEC0&fire=CBD5E0&currStreakNum=E2E8F0" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yahtigin&theme=dark&hide_border=true&background=0D1117&ring=A0AEC0&fire=CBD5E0&currStreakNum=E2E8F0" alt="GitHub Streak" />
 </div>
 
 ---
@@ -97,7 +97,7 @@ My computational lab focus areas for upcoming projects and experiments:
 ### 🐍 Contribution Journey
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/Yahtigin/Yahtigin/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="100%" />
 </div>
 
 ---
@@ -105,14 +105,11 @@ My computational lab focus areas for upcoming projects and experiments:
 ### 🌐 Connect & Vibecode
 
 <div align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/Yahtigin">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:your.email@example.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </div>
 
